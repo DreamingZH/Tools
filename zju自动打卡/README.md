@@ -2,7 +2,7 @@
 # 使用说明：
 * 在文件夹中找到*健康打卡.exe*文件，双击即可运行。  
 可手动创建快捷方式，想每天全自动打卡的可参照https://jingyan.baidu.com/article/9080802200cc15fd91c80fcf.html
-* 获取eai-sess的方法参照cc98：https://www.cc98.org/topic/4969340
+* 获取eai-sess的方法参照cc98（需要校网）：https://www.cc98.org/topic/4969340
 * 如果一直弹窗设置eai-sess，说明输入的eai-sess错了。Shut Down按钮可强制关闭弹窗。
 * 此方法打卡提交的地址为紫金港校区地址
 * 手动上报一天后方可使用！
