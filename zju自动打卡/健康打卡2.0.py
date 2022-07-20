@@ -9,37 +9,6 @@ from tkinter import ttk
 from urllib.parse import quote
 from urllib.parse import unquote
 
-time = str(datetime.datetime.today())[0:19].replace(' ', '\n')
-
-if int(time[0:4]) == 2022 and int(time[5:7]) == 7:
-    pass
-else:
-    window = tk.Tk()
-    window.title("健康打卡")
-    window.geometry('280x170+600+250')
-    window.rowconfigure(0, weight=1)
-    window.columnconfigure(0, weight=1)
-    window.iconbitmap(r'透明校徽.ico')
-    window.attributes('-alpha', 0.85)
-
-    label1 = tk.Label(window, text='内测已结束\n感谢您的测评', bg='white', fg='black',
-                      font=('华文行楷', 19), width=30,
-                      height=5)
-    label1.pack()
-
-
-    def quit_win():
-        window.destroy()
-
-
-    button1 = tk.Button(window, text="OK", bg="white", font=('Century Schoolbook', 12), width=30, height=1,
-                        command=quit_win)
-    button1.pack()
-
-    window.mainloop()
-
-    sys.exit(0)
-
 if not os.path.exists('eai-sess.txt'):
     with open('eai-sess.txt', 'w') as f:
         f.write('Initialize.')
